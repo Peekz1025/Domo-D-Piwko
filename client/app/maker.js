@@ -34,7 +34,7 @@ const DomoForm = (props) => {
   );
 };
 
-const DomoList = function(props) z{
+const DomoList = function(props) {
   if(props.domos.length === 0) {
     return (
       <div className="domoList">
